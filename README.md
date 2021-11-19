@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Level 2 Capstone Project 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here I was tasked to create a simple game using React. 
 
-## Available Scripts
+To be able to successfully do this, you needed to consolidate all the concepts I have learned about React, JSX and JavaScript so far.
 
-In the project directory, you can run:
+## Installation: 
 
-### `npm start`
+Copy the project folder 'capstone-project-l2p1' to your Desktop.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open the project folder in terminal( or command line). 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Type npm install into your terminal to download the relevant package and it's dependencies.
 
-### `npm test`
+```terminal
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once this is complete type npm start to start the React app. 
 
-### `npm run build`
+```terminal
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The React App should know be accessible and running at 'http://localhost:3000' on your internet browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Emoji Memory Game:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Test your memory with this memory game! 🥳
 
-### `npm run eject`
+### Objective:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The objective of the game is to find all the matching card pairs.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### How To Play:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Click the "Start Game" button to shuffle and reveal the game.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To begin, click two cards to reveal them.
 
-## Learn More
+If the two cards match, they remain flipped.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If the two cards do not match, they are flipped back over.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The game ends when all matching card pairs have been revealed.
 
-### Code Splitting
+### Restart:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can restart the game by clicking on the "Shuffle Cards" button.

@@ -1,0 +1,60 @@
+/* Contains the styling of the components */
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #2e2e2e;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #2e2e2e;
+  padding: 0.5em;
+}
+
+.modal-title {
+  font-size: 1.5em;
+  text-align: center;
+  color: #2e2e2e;
+  padding: 0.5em;
+}
+
+.centered-pills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgba(244, 245, 255, 0.877);
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.game-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.game-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
